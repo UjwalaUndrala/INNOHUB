@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6c7cff"/>
+      <stop offset="100%" stop-color="#23d3ac"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="28" fill="#121521"/>
+  <g fill="none" stroke="url(#g)" stroke-width="14" stroke-linecap="round">
+    <path d="M40 130 L100 40 L160 130"/>
+    <path d="M60 120 L140 120"/>
+  </g>
+  <text x="100" y="170" text-anchor="middle" font-family="Inter, Arial" font-size="28" fill="#e8ecf1">INNOHUB</text>
+</svg>
+

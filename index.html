@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>INNOHUB — Community Website</title>
+    <meta name="description" content="INNOHUB community website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-section="header">
+      <div class="container header-inner">
+        <a class="brand" href="#" aria-label="INNOHUB home">
+          <img class="brand-logo" src="assets/logo.svg" alt="INNOHUB logo" />
+          <span class="brand-name">INNOHUB</span>
+        </a>
+        <nav class="primary-nav" aria-label="Primary">
+          <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+            <span class="nav-toggle-bar"></span>
+            <span class="sr-only">Toggle navigation</span>
+          </button>
+          <ul id="nav-menu" class="nav-menu">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#programs">Programs</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#community">Community</a></li>
+            <li><a href="#contact" class="btn btn--sm btn--primary">Join</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="section section--hero" data-section="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <h1 class="display">Build. Learn. Launch — Together at INNOHUB</h1>
+            <p class="lead">A community for makers, founders, and learners. Join programs, attend events, and collaborate to turn ideas into impact.</p>
+            <div class="hero-cta">
+              <a href="#programs" class="btn btn--primary btn--lg">Explore Programs</a>
+              <a href="#contact" class="btn btn--ghost btn--lg">Join the Community</a>
+            </div>
+          </div>
+          <div class="hero-media">
+            <img src="assets/hero.svg" alt="People collaborating at INNOHUB" />
+          </div>
+        </div>
+        <div class="hero-partners container">
+          <div class="partners-grid">
+            <img src="assets/partner-1.svg" alt="Partner 1" />
+            <img src="assets/partner-2.svg" alt="Partner 2" />
+            <img src="assets/partner-3.svg" alt="Partner 3" />
+            <img src="assets/partner-4.svg" alt="Partner 4" />
+            <img src="assets/partner-5.svg" alt="Partner 5" />
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section section--about" data-section="about">
+        <div class="container two-col">
+          <div class="col">
+            <h2>What is INNOHUB?</h2>
+            <p>We are a learning-first community focused on entrepreneurship, design, and technology. From zero-to-one programs to demo days and meetups, we create the space and structure to ship meaningful projects.</p>
+            <ul class="checklist">
+              <li>Mentored cohorts</li>
+              <li>Hands-on workshops</li>
+              <li>Peer accountability</li>
+              <li>Demo days and showcases</li>
+            </ul>
+          </div>
+          <div class="col media-card">
+            <img src="assets/about.svg" alt="Workshop at INNOHUB" />
+          </div>
+        </div>
+      </section>
+
+      <section id="programs" class="section section--programs" data-section="programs">
+        <div class="container">
+          <div class="section-head">
+            <h2>Programs</h2>
+            <p class="subhead">Choose a track that matches your goals.</p>
+          </div>
+          <div class="cards-grid">
+            <article class="card program-card">
+              <img src="assets/program-1.svg" alt="Foundations program" />
+              <div class="card-body">
+                <h3>Foundations</h3>
+                <p>Fundamentals of building products, from problem discovery to MVP.</p>
+                <a href="#contact" class="btn btn--secondary btn--sm">Apply</a>
+              </div>
+            </article>
+            <article class="card program-card">
+              <img src="assets/program-2.svg" alt="Build Sprint" />
+              <div class="card-body">
+                <h3>Build Sprint</h3>
+                <p>Ship a real product in 4–6 weeks with expert guidance.</p>
+                <a href="#contact" class="btn btn--secondary btn--sm">Apply</a>
+              </div>
+            </article>
+            <article class="card program-card">
+              <img src="assets/program-3.svg" alt="Launchpad" />
+              <div class="card-body">
+                <h3>Launchpad</h3>
+                <p>Go-to-market playbooks, storytelling, and demo day prep.</p>
+                <a href="#contact" class="btn btn--secondary btn--sm">Apply</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="events" class="section section--events" data-section="events">
+        <div class="container">
+          <div class="section-head">
+            <h2>Events</h2>
+            <p class="subhead">Talks, workshops, and meetups every month.</p>
+          </div>
+          <div class="list-grid">
+            <article class="event">
+              <time datetime="2025-11-05">Nov 5</time>
+              <div>
+                <h3>No-Code MVP Workshop</h3>
+                <p>Prototype and validate ideas using no-code tools.</p>
+              </div>
+              <a href="#contact" class="link">Register</a>
+            </article>
+            <article class="event">
+              <time datetime="2025-11-18">Nov 18</time>
+              <div>
+                <h3>Founder Stories</h3>
+                <p>Live interviews with early-stage founders.</p>
+              </div>
+              <a href="#contact" class="link">Register</a>
+            </article>
+            <article class="event">
+              <time datetime="2025-12-02">Dec 2</time>
+              <div>
+                <h3>Design Crit Club</h3>
+                <p>Bring your work, get feedback, and iterate fast.</p>
+              </div>
+              <a href="#contact" class="link">Register</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="community" class="section section--community" data-section="community">
+        <div class="container two-col two-col--reverse">
+          <div class="col media-card">
+            <img src="assets/community.svg" alt="Community members collaborating" />
+          </div>
+          <div class="col">
+            <h2>Built with community</h2>
+            <p>Connect with mentors and peers across design, engineering, and product. Learn in public and get unblocked faster.</p>
+            <div class="stats">
+              <div class="stat"><span class="stat-number">1k+</span><span class="stat-label">Members</span></div>
+              <div class="stat"><span class="stat-number">120+</span><span class="stat-label">Projects shipped</span></div>
+              <div class="stat"><span class="stat-number">30+</span><span class="stat-label">Events yearly</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="cta" class="section section--cta" data-section="cta">
+        <div class="container cta-inner">
+          <h2>Ready to build with us?</h2>
+          <p class="lead">Apply to a program or join the community to get started.</p>
+          <div class="cta-actions">
+            <a href="#contact" class="btn btn--primary btn--lg">Join INNOHUB</a>
+            <a href="#programs" class="btn btn--ghost btn--lg">See Programs</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section section--contact" data-section="contact">
+        <div class="container">
+          <div class="section-head">
+            <h2>Join the community</h2>
+            <p class="subhead">Tell us about you. We’ll be in touch.</p>
+          </div>
+          <form class="form" action="#" method="post" onsubmit="event.preventDefault();">
+            <div class="form-row">
+              <label>
+                <span>Name</span>
+                <input type="text" name="name" placeholder="Your full name" required />
+              </label>
+              <label>
+                <span>Email</span>
+                <input type="email" name="email" placeholder="you@example.com" required />
+              </label>
+            </div>
+            <label>
+              <span>What are you interested in?</span>
+              <select name="interest" required>
+                <option value="" disabled selected>Select one</option>
+                <option>Foundations</option>
+                <option>Build Sprint</option>
+                <option>Launchpad</option>
+                <option>Events</option>
+                <option>Mentorship</option>
+              </select>
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="4" placeholder="A short note"></textarea>
+            </label>
+            <button type="submit" class="btn btn--primary">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" data-section="footer">
+      <div class="container footer-inner">
+        <a class="brand" href="#" aria-label="INNOHUB home">
+          <img class="brand-logo" src="assets/logo.svg" alt="INNOHUB logo" />
+          <span class="brand-name">INNOHUB</span>
+        </a>
+        <ul class="footer-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#programs">Programs</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#community">Community</a></li>
+        </ul>
+        <p class="legal">© <span id="year"></span> INNOHUB. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
+
+

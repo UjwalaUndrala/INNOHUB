@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#121521"/>
+  <rect x="60" y="80" width="680" height="440" rx="16" fill="#181c2b"/>
+  <text x="400" y="320" text-anchor="middle" font-family="Inter, Arial" font-size="36" fill="#b6c0cc">Community Image</text>
+</svg>
+
